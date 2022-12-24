@@ -1,2 +1,2 @@
 # WannaRecite
- Just for practice, haven't finish.
+ Just for practice, not yet completed.
