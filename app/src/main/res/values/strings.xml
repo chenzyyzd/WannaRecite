@@ -1,0 +1,8 @@
+<resources>
+    <string name="describe">开启无障碍以启用CuToolbox后台服务\n后台服务用于实现以下功能:\n\n1.调度动态模式.\n\n2.调度模式快捷编辑悬浮窗.\n\n3.调度开机自启动.</string>
+    <string name="title_activity_load_word_book">LoadWordBookActivity</string>
+    <string name="title_activity_recite_words">ReciteWordsActivity</string>
+    <string name="title_activity_prepare_words">PrepareWordsActivity</string>
+    <string name="title_activity_check_words">CheckWordsActivity</string>
+    <string name="title_activity_finish_recite">FinishReciteActivity</string>
+</resources>

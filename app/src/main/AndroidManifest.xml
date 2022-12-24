@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="xyz.chenzyadb.wanna_recite">
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="WannaRecite"
+        android:theme="@style/Theme.WannaRecite"
+        tools:targetApi="33">
+        <activity
+            android:name=".FinishReciteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_finish_recite"
+            android:theme="@style/Theme.WannaRecite" />
+        <activity
+            android:name=".CheckWordsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_check_words"
+            android:theme="@style/Theme.WannaRecite" />
+        <activity
+            android:name=".PrepareWordsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_prepare_words"
+            android:theme="@style/Theme.WannaRecite" />
+        <activity
+            android:name=".ReciteWordsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_recite_words"
+            android:theme="@style/Theme.WannaRecite" />
+        <activity
+            android:name=".LoadWordBookActivity"
+            android:exported="false"
+            android:label="@string/title_activity_load_word_book"
+            android:theme="@style/Theme.WannaRecite" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="WannaRecite"
+            android:theme="@style/Theme.WannaRecite">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
